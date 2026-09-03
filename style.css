@@ -1,0 +1,76 @@
+body {
+    background-color: #f4f7fb;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+
+p {
+
+    font-size: 18px;
+    color: #666;
+
+}
+input {
+    width: 400px;
+    padding: 12px;
+    font-size: 16px;
+}
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    background-color: #0d2457;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+button:hover {
+    background-color: #7e92c7;
+}
+.ask-box {
+    display: flex;
+    gap: 10px;
+}
+.ask-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.ask-box input {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+} .feature-card {
+     border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    flex: 1;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+.features {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    margin-top: 20px;
+}
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
